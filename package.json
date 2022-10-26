@@ -1,0 +1,29 @@
+{
+  "name": "mern-stack-proj",
+  "version": "1.0.0",
+  "description": "Example project learning MERN",
+  "main": "server.js",
+  "scripts": {
+    "start" : "node backend/server.js",
+    "server" : "nodemon backend/server.js" 
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joevarghesecoding/mern-stack-proj.git"
+  },
+  "author": "Jyothsih Joe Varghese",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joevarghesecoding/mern-stack-proj/issues"
+  },
+  "homepage": "https://github.com/joevarghesecoding/mern-stack-proj#readme",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^6.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
