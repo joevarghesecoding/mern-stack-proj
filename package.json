@@ -5,13 +5,14 @@
   "main": "server.js",
   "scripts": {
     "start": "node backend/server.js",
-    "server": "nodemon backend/server.js"
+    "server": "nodemon backend/server.js",
+    "client" : "npm start --prefix frontend"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/joevarghesecoding/mern-stack-proj.git"
   },
-  "author": "Jyothsih Joe Varghese",
+  "author": "Jyothish Joe Varghese",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/joevarghesecoding/mern-stack-proj/issues"
